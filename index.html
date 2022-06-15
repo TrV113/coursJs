@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,6 +16,39 @@
         <button id="btn-2">Zurich</button>
         <p>La bonne réponse est Berne</p>
     </div>
+    <div class="mousemove"></div>
+    <div class="keypress box">
+        <h2>Vous appuyez sur la touche : <span id="key"></span></h2>
+    </div>
+    <div class="zenitsu">
+        <img id="zenitsu" height="500" src="./zenitsu.jpg" alt="">
+    </div>
+    <nav>
+        <ul>
+            <li>Acceuil</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <form class="box">
+        <input type="text" placeholder="Entrez votre nom">
+
+        <select>
+            <option value="">Selectionne ton personnage préféré </option>
+            <option value="Rengoku">Rengoku</option>
+            <option value="Zenitsu">Zenitsu</option>
+            <option value="Tanjiro">Tanjiro</option>
+        </select>
+        <input type="checkbox" id="cgv">
+        <label for="cgv">Accepter les CGV</label>
+        <input type="submit" value="valider">
+        <div>
+            <p id="test1"></p>
+        </div>
+    </form>
+    <audio id="elo" src="./elodie.mp3"></audio>
+    
 
 
     <script src="./index.js"></script>
