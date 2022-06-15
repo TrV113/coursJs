@@ -116,9 +116,26 @@ form.addEventListener("submit", (e) => {
     <h3> Peudo : ${pseudo}</h3>
     <h4>Personnage préféré : ${language}, <br>
     Tu peux acceder à cette masterclass : <a href="vid.html">Vidéos trop stylé ( et j'ai galéré à coder alors clique stp mdr </a></h4>`;
-  } else if (cgv.checked && language === "Rengoku" && pseudo === "Elodie") {
-    document.getElementById("containeur").style.visibility = "visible";
   } else {
     alert("Veuillez accepter les CGV");
   }
 });
+
+// *********************************************//
+// Load Event
+
+window.addEventListener("load", () => {
+  console.log("doc chargé");
+});
+
+// *********************************************//
+//ForEach
+// const boxes = document.getElementsByClassName("box");
+
+// const boxes = document.querySelectorAll(".box");
+
+// boxes.forEach((box) => {
+//   box.addEventListener("click", (e) => {
+//     e.target.style.transform = "scale(0.7)";
+//   });
+// });
